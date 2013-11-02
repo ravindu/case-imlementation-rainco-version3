@@ -1,0 +1,35 @@
+#container
+{
+    width:730px;
+    height:840px;
+    margin: 25px 10px 10px 10px;
+    
+}
+#header
+{
+    width:730px;
+    height:40px;
+    float:left;
+   
+}
+#contend_signUp
+{
+    width:730px;
+    height:760px;
+    float:left;
+    
+}
+#signUp_form
+{
+    width:525px;
+    height:300px;
+    float:left;
+    
+}
+#image_main_div
+{
+    width:200px;
+    height:300px;
+    float:left;
+   
+}

@@ -1,0 +1,90 @@
+
+
+p {margin-bottom: 1em;}
+
+
+/*
+	Forms
+------------------------------------------------------------------- */
+
+.input-button {
+	background-color: #E2E2E2;
+	border: 1px outset #AAA;
+	color: #123;
+	font-weight: bold;
+	padding: 4px 5px;
+}
+.input-button:active {border-style: inset;}
+
+
+/*
+	Alignment
+------------------------------------------------------------------- */
+
+/* Floats */
+
+.left {float: left;}
+.right {float: right;}
+
+.clear,.clearer {clear: both;}
+.clearer {
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+}
+
+
+/*
+	Example specifics
+------------------------------------------------------------------- */
+
+/* Layout */
+
+#center-wrapper {
+	margin: 0 auto;
+	width: 700px;
+      
+}
+
+
+/* Columns */
+
+.column {
+	margin-left: 2%;
+	width: 32%;
+     
+            
+}
+.column.first {margin-left: 0;}
+
+
+/* Sortable items */
+
+.sortable-list {
+	background-color:  #edb156;
+	list-style: none;
+	margin: 0;
+	min-height: 60px;
+	padding: 10px;
+        
+            
+}
+.sortable-item {
+	background-color: #FFF;
+	border: 1px solid #000;
+	cursor: move;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 10px 0;
+	text-align:left;
+        height:8px; 
+        padding-left: 70px;    
+}
+
+
+/* Disabled list */
+
+#example-2-4 .sortable-list {background-color: #CCC;}
+#example-2-4 .sortable-item {cursor: default;}
